@@ -3,12 +3,12 @@ import React from 'react';
 
 const ProductsSection = () => {
   const products = [
-    { name: 'Mandazi', price: '10 KSh', description: 'Traditional Kenyan fried bread, sweet and fluffy' },
-    { name: 'Ngumu', price: '10 KSh', description: 'Crispy and crunchy traditional snack' },
-    { name: 'Doughnuts', price: '10 KSh', description: 'Soft, sweet doughnuts with various toppings' },
-    { name: 'Sweet Cakes', price: '20 KSh', description: 'Moist and delicious individual cakes' },
-    { name: 'Cakes', price: '50 KSh', description: 'Perfect portion cakes for any occasion' },
-    { name: 'Birthday Cakes', price: '600 KSh', description: 'Custom birthday cakes to make your day special' }
+    { name: 'Mandazi', price: '10 KSh', description: 'Traditional Kenyan fried bread, sweet and fluffy', image: null },
+    { name: 'Ngumu', price: '10 KSh', description: 'Crispy and crunchy traditional snack', image: null },
+    { name: 'Doughnuts', price: '10 KSh', description: 'Soft, sweet doughnuts with various toppings', image: null },
+    { name: 'Sweet Cakes', price: '20 KSh', description: 'Moist and delicious individual cakes', image: '/lovable-uploads/209e7403-bee7-4608-827b-3df5b3f4b5a4.png' },
+    { name: 'Cakes', price: '50 KSh', description: 'Perfect portion cakes for any occasion', image: '/lovable-uploads/209e7403-bee7-4608-827b-3df5b3f4b5a4.png' },
+    { name: 'Birthday Cakes', price: '600 KSh', description: 'Custom birthday cakes to make your day special', image: '/lovable-uploads/209e7403-bee7-4608-827b-3df5b3f4b5a4.png' }
   ];
 
   return (
@@ -22,6 +22,15 @@ const ProductsSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              {product.image && (
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={product.image} 
+                    alt={product.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
                 <p className="text-gray-600 mb-4">{product.description}</p>

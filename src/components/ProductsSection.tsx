@@ -6,9 +6,9 @@ const ProductsSection = () => {
     { name: 'Mandazi', price: '10 KSh', description: 'Traditional Kenyan fried bread, sweet and fluffy', image: null },
     { name: 'Ngumu', price: '10 KSh', description: 'Crispy and crunchy traditional snack', image: null },
     { name: 'Doughnuts', price: '10 KSh', description: 'Soft, sweet doughnuts with various toppings', image: null },
-    { name: 'Sweet Cakes', price: '20 KSh', description: 'Moist and delicious individual cakes', image: '/lovable-uploads/209e7403-bee7-4608-827b-3df5b3f4b5a4.png' },
+    { name: 'Sweet Cakes', price: '20 KSh', description: 'Moist and delicious individual cakes', image: null },
     { name: 'Cakes', price: '50 KSh', description: 'Perfect portion cakes for any occasion', image: '/lovable-uploads/209e7403-bee7-4608-827b-3df5b3f4b5a4.png' },
-    { name: 'Birthday Cakes', price: '600 KSh', description: 'Custom birthday cakes to make your day special', image: '/lovable-uploads/209e7403-bee7-4608-827b-3df5b3f4b5a4.png' }
+    { name: 'Birthday Cakes', price: '600 KSh', description: 'Custom birthday cakes to make your day special', image: null }
   ];
 
   return (

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, Mail } from 'lucide-react';
 
@@ -72,7 +71,7 @@ const Header = () => {
                   </div>
                   <div className="px-4 py-2 hover:bg-gray-100 flex justify-between">
                     <span>Birthday Cakes</span>
-                    <span className="font-semibold text-orange-600">600 KSh</span>
+                    <span className="font-semibold text-orange-600">1000 KSh</span>
                   </div>
                 </div>
               </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const ProductsSection = () => {
   const products = [
     { name: 'Mandazi', price: '10 KSh', description: 'Traditional Kenyan fried bread, sweet and fluffy', image: '/lovable-uploads/8c975e31-eb1a-4ca6-8542-e65540a47d0d.png' },
-    { name: 'Ngumu', price: '10 KSh', description: 'Crispy and crunchy traditional snack', image: null },
+    { name: 'Ngumu', price: '10 KSh', description: 'Crispy and crunchy traditional snack', image: '/lovable-uploads/7f590af5-c9ec-41df-8188-6a3a14771dcb.png' },
     { name: 'Doughnuts', price: '10 KSh', description: 'Soft, sweet doughnuts with various toppings', image: '/lovable-uploads/85af19d3-b3e4-4b92-ad3a-58e4f04b99b6.png' },
     { name: 'Sweet Cakes', price: '20 KSh', description: 'Moist and delicious individual cakes', image: '/lovable-uploads/ffea2b06-5d11-4108-a21a-bb886168956a.png' },
     { name: 'Cakes', price: '50 KSh', description: 'Perfect portion cakes for any occasion', image: '/lovable-uploads/209e7403-bee7-4608-827b-3df5b3f4b5a4.png' },
